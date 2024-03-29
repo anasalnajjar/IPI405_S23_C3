@@ -5,7 +5,8 @@ use Illuminate\Support\Facades\DB;
 use App\category;
 use App\Http\Controllers\firstcontroller;
 use App\Http\Controllers\productcontroller;
-use App\product;
+use Illuminate\Http\Request;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -24,3 +25,4 @@ Route::get('/product/{cat_id}', [firstcontroller::class, 'GetCategoryProducts'] 
 
 Route::get('/category', [firstcontroller::class,'GetAllCategoriesWithProducts']);
 Route::get('/addproduct', [productcontroller::class ,'AddProduct']);
+Route::post('/storeproduct',[productcontroller::class , 'storeproduct']);
