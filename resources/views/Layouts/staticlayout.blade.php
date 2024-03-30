@@ -73,24 +73,14 @@
 										<li><a href="/addproduct">إضافة منتج</a></li>
 									</ul>
 								</li>
-								<li><a href="#">الصفحات</a>
-									<ul class="sub-menu">
-										<li><a href="404.html">404 page</a></li>
-										<li><a href="/about">About</a></li>
-										<li><a href="cart.html">Cart</a></li>
-										<li><a href="checkout.html">Check Out</a></li>
-										<li><a href="contact.html">Contact</a></li>
-										<li><a href="news.html">News</a></li>
-										<li><a href="shop.html">Shop</a></li>
-									</ul>
-								</li>
+
 								<li><a href="news.html">الاخبار</a>
 									<ul class="sub-menu">
 										<li><a href="news.html">News</a></li>
 										<li><a href="single-news.html">Single News</a></li>
 									</ul>
 								</li>
-								<li><a href="contact.html">اتصل بنا</a></li>
+								<li><a href="/contact">اتصل بنا</a></li>
                                 <li><a href="/about">نبذة</a></li>
 
 
@@ -131,67 +121,7 @@
 	</div>
 	<!-- end search area -->
 
-	<!-- home page slider -->
-	<div class="homepage-slider">
-		<!-- single home slider -->
-		<div class="single-homepage-slider homepage-bg-1">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 col-lg-7 offset-lg-1 offset-xl-0">
-						<div class="hero-text">
-							<div class="hero-text-tablecell">
-								<p class="subtitle">إصنع علامتك التجارية</p>
-								<h1>قدم لعملائك قيمة تذكرهم بك</h1>
-								<div class="hero-btns">
-									<a href="/product" class="boxed-btn">تسوق الان</a>
-									<a href="contact.html" class="bordered-btn">إتصل بنا</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- single home slider -->
-		<div class="single-homepage-slider homepage-bg-2">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-10 offset-lg-1 text-center">
-						<div class="hero-text">
-							<div class="hero-text-tablecell">
-								<p class="subtitle">مطبوعاتك جاهزة </p>
-								<h2 style="font-color: white">نجهز لكم مطبوعاتكم بأدق التفاصيل وبجودة ترضيكم</h2>
-								<div class="hero-btns">
-									<a href="shop.html" class="boxed-btn">ارفع الملفات</a>
-									<a href="contact.html" class="bordered-btn">إتصل بنا</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- single home slider -->
-		<div class="single-homepage-slider homepage-bg-3">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-10 offset-lg-1 text-right">
-						<div class="hero-text">
-							<div class="hero-text-tablecell">
-								<p class="subtitle">Mega Sale Going On!</p>
-								<h1>Get December Discount</h1>
-								<div class="hero-btns">
-									<a href="shop.html" class="boxed-btn">Visit Shop</a>
-									<a href="contact.html" class="bordered-btn">Contact Us</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- end home page slider -->
+
 
 
 
@@ -204,7 +134,7 @@
 
 	<!-- features list section -->
 	<div class="list-section pt-80 pb-80">
-		<div class="container">
+		<div class="container" >
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="section-title" dir="rtl">
@@ -213,11 +143,11 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+			<div class="row" >
+				<div class="col-lg-4 col-md-6 mb-4 mb-lg-0 ">
 					<div class="list-box d-flex align-items-center">
 						<div class="list-icon">
-							<i class="fas fa-shipping-fast"></i>
+                            <i class="fas fa-regular fa-user" style="color: #f28123;"></i>
 						</div>
 						<div class="content">
 							<h3>Anas Al-Najjar</h3>
@@ -228,7 +158,7 @@
 				<div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
 					<div class="list-box d-flex align-items-center">
 						<div class="list-icon">
-							<i class="fas fa-phone-volume"></i>
+                            <i class="fas fa-regular fa-user" style="color: #f28123;"></i>
 						</div>
 						<div class="content">
 							<h3>Hiba Daood</h3>
@@ -256,9 +186,6 @@
 						</div>
 						<div class="single-logo-item">
 							<img src="assets/img/company-logos/3.png" alt="">
-						</div>
-						<div class="single-logo-item">
-							<img src="assets/img/company-logos/4.png" alt="">
 						</div>
 						<div class="single-logo-item">
 							<img src="assets/img/company-logos/5.png" alt="">

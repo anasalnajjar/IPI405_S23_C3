@@ -2,13 +2,28 @@
 
 @section('content')
 
+   	<!-- breadcrumb-section -->
+       <div class="breadcrumb-section breadcrumb-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 text-center">
+                    <div class="breadcrumb-text">
+                        <h1><span class="orange-text">أضف</span> منتج</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end breadcrumb section -->
+
+
     	<!-- product section -->
         <div class="product-section mt-150 mb-150">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 offset-lg-2 text-center">
                         <div class="section-title">
-                            <h3><span class="orange-text">أضف</span> منتج</h3>
+                            <h3>ادخل بيانات المنتج</h3>
                         </div>
                     </div>
                 </div>
@@ -29,13 +44,13 @@
                                  </span>
                                 </p>
                                 <p style="display: flex;">
-                                    <input type="number" required style="width: 50%" class="mr-5" placeholder="السعر" name="price" id="Price" value="{{old('price')}}">
+                                    <input type="number" required style="width: 50%"  placeholder="السعر" name="price" id="Price" value="{{old('price')}}">
                                     <span class="text-dangers">
                                         @error('price')
                                             {{$message}}
                                         @enderror
                                      </span>
-                                    <input type="number" required style="width: 50%" placeholder="الكمية" name="quantity" id="Quantity" value="{{old('quantity')}}">
+                                    <input type="number" required style="width: 50%" class="mr-5" placeholder="الكمية" name="quantity" id="Quantity" value="{{old('quantity')}}">
                                     <span class="text-dangers">
                                         @error('quantity')
                                             {{$message}}

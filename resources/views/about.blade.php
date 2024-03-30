@@ -1,15 +1,13 @@
 @extends('Layouts.staticlayout')
-
 @section('content')
-
-	<!-- breadcrumb-section -->
+    	<!-- breadcrumb-section -->
 	<div class="breadcrumb-section breadcrumb-bg">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="breadcrumb-text">
-						<p>نظهرك امام عملائك بهوية بصرية مميزة</p>
-						<h1>نبذةعنا</h1>
+                        <p class="subtitle">نظهرك امام عملائك بهوية بصرية مميزة</p>
+                        <h2 style="color: white">نبذةعنا</h2>
 					</div>
 				</div>
 			</div>
@@ -20,11 +18,11 @@
     	<!-- team section -->
 	<div class="mt-150">
 		<div class="container">
-			<div class="row">
+			<div class="row" >
 				<div class="col-lg-8 offset-lg-2 text-center">
-					<div class="section-title">
-						<h3>Our <span class="orange-text">Team</span></h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, fuga quas itaque eveniet beatae optio.</p>
+					<div class="section-title ">
+						<h3>فريق <span class="orange-text">العمل</span></h3>
+						<p dir="rtl">فريق شغوف يحب الإتقان والتفنن في إظهار لمساته الاإبداعية على كل مشروع ينجزه يعملون بجد كي ينالوا على رضاكم.</p>
 					</div>
 				</div>
 			</div>

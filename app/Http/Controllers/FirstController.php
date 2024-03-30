@@ -34,14 +34,18 @@ class firstcontroller extends Controller
          return view('category' ,['categories' => $categories, 'products' =>$products]);
     }
 
-    public function AddCategory ()//بحاجة تنظيم الفورم
-        {
+    public function AddCategory (){//بحاجة تنظيم الفورم
+
             $result = category::all();
          return view('addcategory' ,['AllCategories' => $result]);
-        }
 
-    public function about ()
-        {
+    }
+
+    public function about (){
+
          return view('about' ,[]);
-        }
+    }
+    public function contact(){
+        return view('contact',[]);
+    }
 }
