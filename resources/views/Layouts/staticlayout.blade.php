@@ -69,16 +69,14 @@
 								<li class="current-list-item"><a href="/">الرئيسية</a></li>
 								<li><a href="/category">الأقسام</a>
 									<ul class="sub-menu">
-										<li><a href="shop.html">طباعة الملفات</a></li>
-										<li><a href="checkout.html">المتجر</a></li>
-										<li><a href="single-product.html">طباعة الاكواب</a></li>
+										<li><a href="/addcategory">إضافة قسم</a></li>
+										<li><a href="/addproduct">إضافة منتج</a></li>
 									</ul>
 								</li>
-                                <li><a href="about.html">نبذة</a></li>
 								<li><a href="#">الصفحات</a>
 									<ul class="sub-menu">
 										<li><a href="404.html">404 page</a></li>
-										<li><a href="about.html">About</a></li>
+										<li><a href="/about">About</a></li>
 										<li><a href="cart.html">Cart</a></li>
 										<li><a href="checkout.html">Check Out</a></li>
 										<li><a href="contact.html">Contact</a></li>
@@ -93,6 +91,8 @@
 									</ul>
 								</li>
 								<li><a href="contact.html">اتصل بنا</a></li>
+                                <li><a href="/about">نبذة</a></li>
+
 
 								<li>
 									<div class="header-icons">
@@ -333,7 +333,7 @@
 						<ul>
 							<li><a href="https://www.facebook.com/anas.najjar.71697" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
 							<li><a href="https://www.instagram.com/anas_alnajjar2/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="https://www.facebook.com/profile.php?id=100008920744659" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
 							<li><a href="https://www.instagram.com/hibadauod/" target="_blank"><i class="fab fa-instagram"></i></a></li>
                         </ul>
 					</div>

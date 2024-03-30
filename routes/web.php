@@ -21,8 +21,11 @@ use Illuminate\Http\Request;
 
 Route::get('/', [firstcontroller::class ,'MainPage']);
 
-Route::get('/product/{cat_id}', [firstcontroller::class, 'GetCategoryProducts'] );
+Route::get('/product/{cat_id?}', [firstcontroller::class, 'GetCategoryProducts'] );
 
 Route::get('/category', [firstcontroller::class,'GetAllCategoriesWithProducts']);
 Route::get('/addproduct', [productcontroller::class ,'AddProduct']);
 Route::post('/storeproduct',[productcontroller::class , 'storeproduct']);
+Route::get('/addcategory', [firstcontroller::class ,'AddCategory']);// بحاجة تنظيم الفورم
+Route::get('/about', [firstcontroller::class ,'about']);// بحاجة تنظيم الفورم
+

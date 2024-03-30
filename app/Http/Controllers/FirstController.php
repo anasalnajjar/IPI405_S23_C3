@@ -23,7 +23,7 @@ class firstcontroller extends Controller
             return view('product',['products' => $products]);
         }
         else{
-            $result =product::all();
+            $result = product::all();
             return view('product',['products' => $result]);
         }
     }
@@ -34,4 +34,14 @@ class firstcontroller extends Controller
          return view('category' ,['categories' => $categories, 'products' =>$products]);
     }
 
+    public function AddCategory ()//بحاجة تنظيم الفورم
+        {
+            $result = category::all();
+         return view('addcategory' ,['AllCategories' => $result]);
+        }
+
+    public function about ()
+        {
+         return view('about' ,[]);
+        }
 }
