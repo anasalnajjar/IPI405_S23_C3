@@ -74,7 +74,7 @@
 									</ul>
 								</li>
 
-								<li><a href="news.html">الاخبار</a>
+								<li><a href="/news">الاخبار</a>
 									<ul class="sub-menu">
 										<li><a href="news.html">News</a></li>
 										<li><a href="single-news.html">Single News</a></li>
@@ -199,7 +199,7 @@
 
 
 	<!-- footer -->
-	<div class="footer-area">
+	<div class="footer-area" >
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3 col-md-6">
@@ -214,7 +214,7 @@
 						<ul>
 							<li>24/7, الدعم المباشر.</li>
 							<li>anas_122841@svuonline.org</li>
-							<li>anas_122841@svuonline.org</li>
+							<li>Hiba_216478@svuonline.org</li>
 							<li>+00966 59 906 4598</li>
 						</ul>
 					</div>
@@ -224,10 +224,10 @@
 						<h2 class="widget-title">الصفحات</h2>
 						<ul>
 							<li><a href="/">الرئيسية</a></li>
-							<li><a href="about.html">نبذة عنا</a></li>
-							<li><a href="services.html">المتجر الإلكتروني</a></li>
-							<li><a href="news.html">الأخبار</a></li>
-							<li><a href="contact.html">إتصل بنا</a></li>
+							<li><a href="/about">نبذة عنا</a></li>
+							<li><a href="/product">المتجر الإلكتروني</a></li>
+							<li><a href="/news">الأخبار</a></li>
+							<li><a href="/contact">إتصل بنا</a></li>
 						</ul>
 					</div>
 				</div>

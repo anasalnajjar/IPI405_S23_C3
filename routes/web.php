@@ -29,4 +29,5 @@ Route::post('/storeproduct',[productcontroller::class , 'storeproduct']);
 Route::get('/addcategory', [firstcontroller::class ,'AddCategory']);// بحاجة تنظيم الفورم
 Route::get('/about', [firstcontroller::class ,'about']);// بحاجة تنظيم الفورم
 Route::get('/contact', [firstcontroller::class ,'contact']);// بحاجة تنظيم الفورم
+Route::get('/news', [firstcontroller::class ,'news']);// بحاجة تنظيم الفورم
 

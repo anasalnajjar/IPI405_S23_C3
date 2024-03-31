@@ -15,7 +15,7 @@
 								<h1>قدم لعملائك قيمة تذكرهم بك</h1>
 								<div class="hero-btns">
 									<a href="/product" class="boxed-btn">تسوق الان</a>
-									<a href="contact.html" class="bordered-btn">إتصل بنا</a>
+									<a href="/contact" class="bordered-btn">إتصل بنا</a>
 								</div>
 							</div>
 						</div>
@@ -34,7 +34,7 @@
 								<h2 style="color: white">نجهز لكم مطبوعاتكم بأدق التفاصيل وبجودة ترضيكم</h2>
 								<div class="hero-btns">
 									<a href="shop.html" class="boxed-btn">ارفع الملفات</a>
-									<a href="contact.html" class="bordered-btn">إتصل بنا</a>
+									<a href="/contact" class="bordered-btn">إتصل بنا</a>
 								</div>
 							</div>
 						</div>
