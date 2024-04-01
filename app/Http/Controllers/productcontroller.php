@@ -14,9 +14,10 @@ class productcontroller extends Controller
         }
 
         public function storeproduct(Request $request){
+//            dd($request->all());
 
             $request -> validate([
-                'name' => 'required |max:25 |unique:product',
+                'name' => 'required |max:25 |unique:products',
                 'price' => 'required',
                 'quantity' => 'required',
                 'description' => 'required',
@@ -28,7 +29,7 @@ class productcontroller extends Controller
             $newproduct -> price = $request ->price;
             $newproduct -> quantity = $request ->quantity;
             $newproduct -> description = $request ->description;
-            $newproduct ->imagepath ="ss";
+            $newproduct ->imagepath ="assets\img\education.png";
             $newproduct ->category_id = $request ->category_id;
 
             $newproduct->save();
